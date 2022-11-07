@@ -9,7 +9,7 @@
 
 >CREATE DATABASE IF NOT EXISTS `calender_api`
 
-### Estrutura para tabela calender_api.task
+### Estrutura para tabela task
 > CREATE TABLE IF NOT EXISTS `task` (
 `id` bigint NOT NULL AUTO_INCREMENT,
 `data` date NOT NULL,
