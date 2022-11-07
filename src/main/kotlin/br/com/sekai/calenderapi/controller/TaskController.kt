@@ -37,7 +37,6 @@ class TaskController {
     fun update(@RequestBody taskVO: TaskVO): TaskVO{
         return taskServices.update(taskVO)
     }
-
     @DeleteMapping("/{id}")
     fun delete(@PathVariable(name = "id") id: Long) : ResponseEntity<*>{
         taskServices.delete(id)
